@@ -1,0 +1,51 @@
+# Misc.
+.DS_Store
+
+# Node.js
+node_modules/
+client/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vue.js build output
+/dist
+/public # Uncomment if /public is a build output directory and not source
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Vue Log Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and OS specific files
+.DS_Store # macOS
+.vscode/ # VS Code settings
+.idea/ # WebStorm/IntelliJ IDEA settings
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional: Coverage reports
+coverage/
+.nyc_output/
+
+# Optional: Cache directories
+.npm/
+.eslintcache
+.cache/ # For bundlers like Parcel
+.parcel-cache/ # For Parcel specifically
+.next/ # For Next.js projects
+.nuxt/ # For Nuxt.js projects
